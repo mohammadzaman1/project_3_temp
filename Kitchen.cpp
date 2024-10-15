@@ -107,7 +107,7 @@ int Kitchen::releaseDishesOfCuisineType(const std::string& cuisine_type){
 }
 
 void Kitchen::kitchenReport() const{
-    std::cout<<"ITALIAN: " << ("ITALIAN")<<std::endl;
+    std::cout<<"ITALIAN: " << tallyCuisineTypes("ITALIAN")<<std::endl;
     std::cout<<"MEXICAN: " << tallyCuisineTypes("MEXICAN")<<std::endl;
     std::cout<<"CHINESE: " << tallyCuisineTypes("CHINESE")<<std::endl;
     std::cout<<"INDIAN: " << tallyCuisineTypes("INDIAN")<<std::endl;
